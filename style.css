@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    color: beige;
+}
+
+h1 {
+    text-align: center;
+    background-color: cadetblue;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+form {
+    max-width: 400px;              /* Ancho máximo del formulario */
+    width: 100%;                   /* Ocupa el 100% del contenedor */
+    display: flex;                  
+    flex-direction: column;        /* Apila elementos verticalmente */
+    text-align: left;
+    margin-left: 200px;
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: bisque;
+    border-radius: 20px;
+
+}
